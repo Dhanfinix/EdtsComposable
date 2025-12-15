@@ -12,7 +12,7 @@ val githubProperties = Properties().apply {
     load(FileInputStream(rootProject.file("github.properties")))
 }
 
-val versionName = "0.0.1"
+val versionName = "0.0.2"
 val artifactId = "composable"
 
 afterEvaluate {
